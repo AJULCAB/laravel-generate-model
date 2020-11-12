@@ -108,4 +108,4 @@ to decide whether this approach gives value to your project :-)
 
 #### Support
 
-For the time being, this package only supports MySQL databases. Support for other databases will be added soon.
+For the time being, this package  supports MySQL, SqlSrv, Postgress and SQLite databases. 

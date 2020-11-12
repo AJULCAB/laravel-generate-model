@@ -1,17 +1,17 @@
 {
-    "name": "reliese/laravel",
+    "name": "ajulcab/laravel-generate-model",
     "description": "Reliese Components for Laravel Framework code generation.",
-    "keywords": ["reliese", "laravel"],
-    "homepage": "http://cristianllanos.com",
+    "keywords": ["reliese", "laravel","generate","model","ajulcab"],
+    "homepage": "http://infotiks.com",
     "support": {
-        "issues": "https://github.com/reliese/laravel/issues",
-        "source": "https://github.com/reliese/laravel"
+        "issues": "https://github.com/AJULCAB/generate-model/issues",
+        "source": "https://github.com/AJULCAB/generate-model"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Cristian Llanos",
-            "email": "cristianllanos@outlook.com"
+            "name": "Ahiezer Julca Blas",
+            "email": "julca.blas@gmail.com"
         }
     ],
     "require": {
