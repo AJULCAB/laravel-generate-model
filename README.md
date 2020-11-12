@@ -14,10 +14,10 @@ providing some convenient code-generation capabilities.
 ## How does it work?
 
 This package expects that you are using Laravel 5.1 or above.
-You will need to import the `reliese/laravel` package via composer:
+You will need to import the `ajulcab/laravel-generate-model` package via composer:
 
 ```shell
-composer require reliese/laravel
+composer require ajulcab/laravel-generate-model
 ```
 
 ### Configuration
@@ -40,7 +40,7 @@ Add the service provider to your `config/app.php` file within the `providers` ke
 If you wish to enable generators only for your local environment, you should install it via composer using the --dev option like this:
 
 ```shell
-composer require reliese/laravel --dev
+composer require ajulcab/laravel-generate-model --dev
 ```
 
 Then you'll need to register the provider in `app/Providers/AppServiceProvider.php` file.
