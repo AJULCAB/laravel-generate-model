@@ -270,7 +270,11 @@ class Schema implements \Reliese\Meta\Schema
      */
     public static function schemas(Connection $connection)
     {
-        $schemas = $connection->getDoctrineSchemaManager()->listDatabases();
+        //$schemas = $connection->getDoctrineSchemaManager()->listDatabases();
+
+        $pdo = $connection->getPdo();
+        $query = $pdo->query("SHOW DATABASES");
+        $schemas = $query->fetchAll(\PDO::FETCH_COLUMN);
 
         return array_diff($schemas, [
             'information_schema',
