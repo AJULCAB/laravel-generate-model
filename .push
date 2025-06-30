@@ -1,6 +1,25 @@
+1. Confirma y sube tus cambios a tu repositorio de GitHub:
+
+bash
 git add .
 git commit -m "Descripción de los cambios"
 git push origin main
+(Asegúrate de estar en la rama principal/main o la rama que uses como estable).
 
+2. Actualiza la versión en tu archivo composer.json:
+
+Cambia el valor de "version" (si lo tienes) o agrega una nueva etiqueta/tag de versión en GitHub (recomendado).
+3. Crea un nuevo tag de versión:
+
+bash
 git tag v1.0.1
 git push origin v1.0.1
+(Reemplaza v1.0.1 por la versión correspondiente según tu ciclo de versiones.)
+
+4. Verifica que tu repositorio es público y tiene un composer.json válido.
+
+5. Si aún no lo has hecho, publica tu paquete en Packagist:
+
+Ve a https://packagist.org/packages/submit
+Ingresa la URL de tu repositorio de GitHub y sigue los pasos.
+Para actualizaciones futuras, Packagist detecta automáticamente los nuevos tags y actualiza tu paquete. Si no lo hace, puedes forzar la actualización desde la página de tu paquete en Packagist.
