@@ -280,7 +280,14 @@ return [
         */
 
         'except' => [
+            'cache',
+            'cache_locks',
+            'failed_jobs',
+            'jobs',
+            'job_batches',
             'migrations',
+            'password_reset_tokens',
+            'sessions',
         ],
 
         /*
@@ -374,7 +381,7 @@ return [
         | You can disable pluralization tables and relations
         |
         */
-        'pluralize' => true,
+        'pluralize' => false,
 
         /*
         |--------------------------------------------------------------------------
