@@ -275,7 +275,6 @@ class Schema implements \Reliese\Meta\Schema
         $pdo = $connection->getPdo();
         $query = $pdo->query("SHOW DATABASES");
         $schemas = $query->fetchAll(\PDO::FETCH_COLUMN);
-
         return array_diff($schemas, [
             'information_schema',
             'sys',
