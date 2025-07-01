@@ -3,8 +3,8 @@
 bash
 git add .
 git commit -m "Descripción de los cambios"
-git push origin main
-(Asegúrate de estar en la rama principal/main o la rama que uses como estable).
+git push origin master
+(Asegúrate de estar en la rama principal/master o la rama que uses como estable).
 
 2. Actualiza la versión en tu archivo composer.json:
 
